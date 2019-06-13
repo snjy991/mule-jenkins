@@ -35,6 +35,12 @@
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
+			<plugin>
+  				<groupId>org.mule.tools.maven</groupId>
+  				<artifactId>mule-maven-plugin</artifactId>
+  				<version>3.2.3</version>
+  				<extensions>true</extensions>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -77,6 +83,12 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
+		<pluginRepositories>
+    		<pluginRepository>
+        		<id>mule-public</id>
+        		<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+    		</pluginRepository>
+</pluginRepositories>
 	</pluginRepositories>
 
 </project>
