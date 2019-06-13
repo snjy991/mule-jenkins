@@ -82,5 +82,11 @@
         		<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
     		</pluginRepository>
 </pluginRepositories>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>63bc3fe51b82-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
